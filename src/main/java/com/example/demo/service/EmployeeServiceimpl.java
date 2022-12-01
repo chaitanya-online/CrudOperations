@@ -99,7 +99,7 @@ public class EmployeeServiceimpl implements EmployeeService {
 	
 	public List<Employee>getEmployeeByDomain(String domain)
 	{
-		return reposiroty.getEmployyeByDomain(domain);
+		return reposiroty.getEmployeeByDomain(domain);
 	}
 	
 	

@@ -12,7 +12,7 @@ import com.example.demo.entity.Employee;
 public interface MyRepository extends JpaRepository<Employee, Integer> {
 	@Query("select d from employee  d where d.domain=?1")
 
-	public List<Employee> getEmployyeByDomain(String domain);
+	public List<Employee> getEmployeeByDomain(String domain);
 
 
 }
