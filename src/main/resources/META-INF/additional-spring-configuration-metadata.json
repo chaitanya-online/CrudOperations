@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "Unique.email",
+    "type": "java.lang.String",
+    "description": "A description for 'Unique.email'"
+  },
+  {
+    "name": "addemployeeurl",
+    "type": "java.lang.String",
+    "description": "A description for 'addemployeeurl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  },
+  {
+    "name": "addEmployeeUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'addEmployeeUrl'"
+  }
+]}

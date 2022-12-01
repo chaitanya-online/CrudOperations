@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  liquibase:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/email
+    user: root
+    password: Admin
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    change-log: classpath:/db.changelog/db.changelog-master.yaml
+    enabled: true
+

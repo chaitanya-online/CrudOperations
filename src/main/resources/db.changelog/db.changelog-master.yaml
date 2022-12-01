@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - include:
+      file: db.changelog/db.insert-txn-account-2.0.xml
+  - include:
+     file: db.changelog/db.update-employe-table-2.0.xml
+  - include:
+      file: db.changelog/db.delete-employee-table-2.0.xml
+  - include :
+      file: db.changelog/db.insert-laptopbrand-3.0.xml
+  - include:
+      file: db.changelog/db.vw-laptop-1.0.xml
+  - include:
+      file: db.changelog/db.vw-employee-1.0.xml
+
