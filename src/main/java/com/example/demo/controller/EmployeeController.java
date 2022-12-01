@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,14 +28,14 @@ public class EmployeeController {
     @Autowired
     EmployeeServiceimpl employeeServiceimpl;
 
-    @RequestMapping(value = "/addEmployee", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE, method = {RequestMethod.POST})
+    @PostMapping(value = "/addEmployee", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public String addEmployee(@Valid @RequestBody Employee employee) {
 
         return employeeServiceimpl.addEmployee(employee);
 
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "/addEmployees")
+    @PostMapping("/addEmployees")
 
     public String addEmployees(@Valid @RequestBody List<Employee> employee) {
         return employeeServiceimpl.addEmployees(employee);
