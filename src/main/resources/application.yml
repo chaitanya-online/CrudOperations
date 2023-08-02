@@ -3,10 +3,10 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
   liquibase:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/email
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/employee
     user: root
-    password: Admin
+    password: admin
     driver-class-name: com.mysql.cj.jdbc.Driver
     change-log: classpath:/db.changelog/db.changelog-master.yaml
-    enabled: true
+    enabled: false
 
