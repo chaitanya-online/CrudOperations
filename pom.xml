@@ -97,6 +97,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>CrudOperations-Docker</finalName>
 	</build>
 
 </project>
