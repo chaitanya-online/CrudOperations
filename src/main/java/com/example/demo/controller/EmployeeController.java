@@ -85,5 +85,10 @@ public class EmployeeController {
         return employeeServiceimpl.getEmployeeByDomain(domain);
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "Iam Working";
+    }
+
 
 }
