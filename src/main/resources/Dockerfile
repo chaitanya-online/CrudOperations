@@ -4,7 +4,7 @@ FROM openjdk:8
 WORKDIR /app
 
 # Copy the Spring Boot JAR file into the container.
-COPY CrudOperations-0.0.1-SNAPSHOT.jar app.jar
+COPY ../../../target/CrudOperations-0.0.1-SNAPSHOT.jar app.jar
 
 # Copy the configuration file into the container.
 #COPY src/main/resources/application.properties src/main/resources/application.properties
